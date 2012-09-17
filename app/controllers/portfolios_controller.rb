@@ -10,7 +10,7 @@ class PortfoliosController < ApplicationController
     end
   end
 
-  # GET /portfolios/1
+  # GET /portfolios/1                                                                         Z
   # GET /portfolios/1.json
   def show
     @portfolio = Portfolio.find(params[:id])
